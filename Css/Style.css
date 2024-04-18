@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #343434;
+}
+
+.app img {
+    position: absolute;
+    width: 49%;
+    height: 61%;
+    left: 25%;
+    top: 20%;
+    border-radius: 0.5em;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.Startbutton {
+    position: absolute;
+    width: 4.3em;
+    height: 1.4em;
+    top: 36.9%;
+    left: 32%;
+}
+
+.Stopbutton {
+    position: absolute;
+    width: 4.3em;
+    height: 1.4em;
+    top: 36.9%;
+    left: 64%;
+}
