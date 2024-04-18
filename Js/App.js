@@ -3,9 +3,34 @@ let Second = document.querySelector(".second");
 let Startbutton = document.querySelector(".Startbutton");
 let Stopbutton = document.querySelector(".Stopbutton");
 let Resetbutton = document.querySelector(".Resetbutton");
+let info = document.querySelector(".info");
+
+alert("Application is safe");
+
+
+let h1 = document.createElement("h1");
+let p = document.createElement("p");
+
+
+h1.style.border = "5px solid red";
+h1.style.color = "white";
+h1.style.backgroundColor = "#151538";
+h1.textContent = "Kronometre uygulaması";
+
+
+p.style.border = "5px solid #151538";
+p.style.color = "white";
+p.style.backgroundColor = "#151538";
+p.textContent = "Başlatmak için ▻ durdurmak için ■ sıfırlamak içinde ↻ butonuna basınız";
 
 
 
+
+
+
+
+info.appendChild(h1);
+info.appendChild(p);
 
 
 let Time = 0;
