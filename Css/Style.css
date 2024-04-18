@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #343434;
+    background-color: #151538;
 }
 
 .app img {
@@ -32,4 +33,65 @@ body {
     height: 1.4em;
     top: 36.9%;
     left: 64%;
+}
+
+.info {
+    position: absolute;
+    width: 48%;
+    height: 10em;
+    background-color: white;
+    opacity: 0.5;
+    top: 3%;
+    left: 25%;
+    border-radius: 0.2em;
+    border: 5px solid lightgreen;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.info p {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+.Resetbutton {
+    position: absolute;
+    width: 7.4em;
+    height: 2em;
+    top: 33.6%;
+    left: 46.5%;
+
+}
+
+.b {
+    position: absolute;
+    width: 11em;
+    height: 5em;
+    background-color: #151538;
+    top: 15.3em;
+    left: 45%;
+}
+
+.second {
+    position: absolute;
+    top: 50%;
+    font-size: 4.5em;
+    left: 50%;
+    color: lightgreen;
+}
+
+.c {
+    position: absolute;
+    top: 50%;
+    font-size: 4.5em;
+    left: 48.9%;
+    color: lightgreen;
+}
+
+.tens {
+    position: absolute;
+    top: 50%;
+    font-size: 4.5em;
+    left: 45%;
+    color: lightgreen;
 }
